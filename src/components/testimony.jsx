@@ -1,21 +1,21 @@
-import emmaImage from '../images/testimony-emma.png';
 import '../style-sheets/testimony.css';
+/* eslint-disable react/prop-types */ //Desactivar validación de tipos de props
+
 
 // Componente Funcional (es una fx de JS)
-
-function Testimony(){
-  // Un componente funcional retorna un elemento jsx
+function Testimony(props) {
+  // Elemento jsx es todo lo que retorna el componente funcional
+  // Este componente está recibiendo props como arg
   return(
     // Contenedor principal
     <div className='container-testimony'>
       <img className='image-testimony' 
-      src={emmaImage}
-      alt='Imagen de Emma'/>
+      src={props.imagen}
+      alt={`Imagen de ${props.nombre}`}/>
       <div className='container-text-testimony'>
-        <p className='name-testimony'>Emma Bostian en Suecia</p>
-        <p className='job-testimony'>Ingeniera de Software en Spotify</p>
-        <p className='text-testimony'>
-          Siempre me costó aprender JavaScript. Hice muchos cursos, pero el de freeCodeCamp fue el que me quedó grabado. Estudiar JavaScript, así como estructuras de datos y algoritmos en freeCodeCamp, me dio las habilidades y la confianza que necesitaba para conseguir el trabajo de mis sueños como ingeniero de software en Spotify.</p>
+        <p className='name-testimony'>{props.nombre} en {props.pais}</p>
+        <p className='job-testimony'>{props.cargo} en {props.empresa}</p>
+        <p className='text-testimony'>{props.testimonio}</p>
       </div>
     </div>
   );
