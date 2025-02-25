@@ -11,11 +11,14 @@ function Testimony(props) {
     <div className='container-testimony'>
       <img className='image-testimony' 
       src={props.imagen}
-      alt={`Imagen de ${props.nombre}`}/>
+      alt={`Imagen de ${props.nombre}`} />
       <div className='container-text-testimony'>
-        <p className='name-testimony'>{props.nombre} en {props.pais}</p>
-        <p className='job-testimony'>{props.cargo} en {props.empresa}</p>
-        <p className='text-testimony'>{props.testimonio}</p>
+        <p className='name-testimony'>
+          <strong>{props.nombre}</strong> en {props.pais}</p>
+        <p className='job-testimony'>
+          {props.cargo} en <strong>{props.empresa}</strong></p>
+        <p className='text-testimony'>
+          {props.testimonio}</p>
       </div>
     </div>
   );

@@ -1,8 +1,27 @@
-# React + Vite
+# 👩🏻‍💻 Mi primer proyecto en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi primer proyecto en React, donde utilizo herramientas como Vite y exploro el uso de JSX.
 
-Currently, two official plugins are available:
+## 📌 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+He creado un clon de la página principal de FreeCodeCamp, con el objetivo de practicar:
+
+- La estructura de un proyecto en React.
+- El uso de componentes y JSX.
+- La configuración de Vite como entorno de desarrollo.
+
+## 🛠️ Tecnologías utilizadas
+
+- React + Vite
+- JavaScript (JSX)
+- CSS
+
+## Aprendizajes
+
+Durante este proyecto, he aprendido:
+
+- Cómo iniciar un proyecto con Vite.
+- La estructura de archivos en React.
+- La importancia de los componentes y el estado.
+
+¡Gracias por ver mi proyecto!
