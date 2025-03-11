@@ -1,7 +1,8 @@
 # Mi primer proyecto en React
 
-Este es mi primer proyecto en React, donde utilizo herramientas como Vite y exploro el uso de JSX.
-El proyecto está disponible para su visualización en el siguiente enlace: https://mabel-gp.github.io/first-react-app/
+Este es mi primer proyecto en React, donde utilizo herramientas como Vite y exploro el uso de JSX.  
+El proyecto está disponible para su visualización en el siguiente enlace:  
+https://mabel-gp.github.io/first-react-app/
 
 ## 📌 Descripción
 
@@ -25,4 +26,4 @@ Durante este proyecto, he aprendido:
 - La estructura de archivos en React.
 - La importancia de los componentes y el estado.
 
-¡Gracias por ver mi proyecto!
+¡Gracias por ver!
