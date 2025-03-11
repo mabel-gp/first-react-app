@@ -1,6 +1,7 @@
-# 👩🏻‍💻 Mi primer proyecto en React
+# Mi primer proyecto en React
 
 Este es mi primer proyecto en React, donde utilizo herramientas como Vite y exploro el uso de JSX.
+El proyecto está disponible para su visualización en el siguiente enlace: https://mabel-gp.github.io/first-react-app/
 
 ## 📌 Descripción
 
@@ -16,7 +17,7 @@ He creado un clon de la página principal de FreeCodeCamp, con el objetivo de pr
 - JavaScript (JSX)
 - CSS
 
-## Aprendizajes
+## 📝 Aprendizajes
 
 Durante este proyecto, he aprendido:
 
